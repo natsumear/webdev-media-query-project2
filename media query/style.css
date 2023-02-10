@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+}
+.box{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin: 30px;
+}
+@media screen and  (0px<width<530px){
+    .box1{
+        display: block;
+    }
+    .box2{display: none;}
+    .box3{display:none}
+}
+@media screen and  (530px<width<768px){
+    .box1{
+        display: none;
+    }
+    .box2{display: block;}
+    .box3{display:none}
+}
+@media screen and (768px<width<1024px){
+    .box1{display: none;
+    }
+    .box2{display: none;}
+    .box3{display: block;}
+}
+.box1{
+    background-color:pink;
+}
+.box2{
+    background-color: #f8d32e;
+}
+.box3{
+    background-color: #86d9fa;
+}
